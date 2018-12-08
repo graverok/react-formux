@@ -1,0 +1,51 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "no-cond-assign": [
+      2,
+      "always"
+    ],
+    "no-control-regex": 1,
+    "no-debugger": 1,
+    "no-dupe-args": 1,
+    "no-dupe-keys": 1,
+    "no-duplicate-case": 1,
+    "no-empty": 1,
+    "no-ex-assign": 1,
+    "no-extra-boolean-cast": 1,
+    "no-func-assign": 2,
+    "no-inner-declarations": [
+      2,
+      "functions"
+    ],
+    "no-invalid-regexp": 2,
+    "no-irregular-whitespace": 2,
+    "no-negated-in-lhs": 2,
+    "no-obj-calls": 2,
+    "no-regex-spaces": 2,
+    "no-sparse-arrays": 2,
+    "no-unreachable": 2,
+    "use-isnan": 2,
+    "valid-typeof": 2,
+    "curly": [
+      2,
+      "all"
+    ],
+    "eqeqeq": [
+      2,
+      "smart"
+    ],
+    "no-unneeded-ternary": 1,
+    "no-const-assign": 2,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/react-in-jsx-scope": 2
+  },
+  "plugins": [
+    "react"
+  ]
+}

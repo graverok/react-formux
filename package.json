@@ -1,0 +1,54 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --env.devBuild=false -p --config webpack.config.production.js",
+    "dev-build": "webpack --env.devBuild=true --config webpack.config.production.js",
+    "lint": "eslint src"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-0",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "case-sensitive-paths-webpack-plugin": "^2.1.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "compression-webpack-plugin": "^3.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "copyfiles": "^2.1.0",
+    "directory-named-webpack-plugin": "^4.0.0",
+    "es6-promise": "^4.2.5",
+    "eslint": "^5.8.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^1.1.11",
+    "git-revision-webpack-plugin": "^3.0.3",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.14.3",
+    "react-hot-loader": "^4.3.11",
+    "redux-devtools": "^3.4.1",
+    "webpack": "^4.42.1",
+    "webpack-bundle-analyzer": "^3.6.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "babel-core": "6.23.1",
+    "babel-eslint": "8.1.0",
+    "babel-loader": "7.1.1",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-env": "1.1.10",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1"
+  },
+  "eslintIgnore": [
+    "three.js"
+  ]
+}
